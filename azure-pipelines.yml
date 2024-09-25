@@ -1,0 +1,28 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - dev
+      - qas
+      - main
+      - master
+
+resources:
+  repositories:
+    - repository: devops
+      type: git
+      name: TemplateDevOps-NetCore/devops
+      ref: main
+
+extends:
+  template: templates/BuildReactContainerPublishAca.yml@devops
+  parameters:
+    azureSubscription: 'BRF-SCN-BPVIRTUAL'
+    resourceGroup: 'BRF-RG-BPVIRTUAL'
+    subscriptionId: '0f22847e-f5bd-407e-a508-53cca69d8e73'
+    acrName: 'brfacrbpvirtual.azurecr.io'
+    dockerFile: 'Dockerfile'
+    imageName: 'BpVirtual.Web-$(Build.SourceBranchName):$(Build.BuildId)' 
+    sonarConnection: 'sonarqube'   
+    projectKey: 'BpVirtual-Web'
+    projectName: 'BpVirtual Web'

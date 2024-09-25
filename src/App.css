@@ -1,0 +1,99 @@
+:root {
+  font-family: "Noto Sans";
+  margin: 0 auto;
+  text-align: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased !important;
+  text-rendering: optimizeLegibility !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+  overflow-y: hidden;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #fffefa url(../src/assets/images/bg.svg) no-repeat center center
+    fixed;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+::selection {
+  background-color: #c12027;
+  color: white;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Estilo do scrollbar */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e5e5e5;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #c4c4c4;
+  border-radius: 4px;
+}
+
+.pagination-item {
+  color: #c12027;
+  font-family: "Co Headline";
+  font-size: 12px;
+}
+
+.pagination-button {
+  font-family: "Noto Sans";
+  font-size: 12px;
+}
+
+.chatContent {
+  height: calc(100% - 160px);
+}
+
+.documentContent {
+  height: calc(100% - 80px);
+}
+
+.tableBox {
+  height: 100%;
+  max-height: 100%;
+}
+
+.css-i1jd09-MuiPaper-root-MuiPopover-paper-MuiMenu-paper {
+  max-height: 200px;
+}
+
+.modalDocument > .MuiDialog-container > .MuiPaper-root {
+  width: 600px;
+}

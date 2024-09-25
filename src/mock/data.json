@@ -1,0 +1,121 @@
+[
+  {
+    "internal_id": "adceabcb-7fad-4d9c-85c3-100ced51f71b",
+    "title": "Guia de facilitacao treinamento padrinhos ",
+    "source": "n/a",
+    "bot": "rh",
+    "tags": [
+      "publico"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "ec63e48d-89e2-4245-b9ee-fe05fbacb2e0",
+    "title": "Papos 7 e 30",
+    "source": "n/a",
+    "bot": "rh",
+    "tags": [
+      "publico"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "c1e9b735-18bc-496b-92e1-d5d88f36fda1",
+    "title": "Manual de integração para novos colaboradores",
+    "source": "n/a",
+    "bot": "rh",
+    "tags": [
+      "onboarding"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "6f27e4fd-d7c3-49d2-bb3d-982ce789d109",
+    "title": "Kit de boas-vindas para funcionários remotos",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "remote",
+      "onboarding"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "51c79436-c2de-41bb-9ad3-2633f1c12e28",
+    "title": "Sessão de orientação sobre políticas de segurança",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "security",
+      "orientation"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "7a2f4c90-1ad1-4914-9770-2a7a4f5c055d",
+    "title": "Workshop sobre equilíbrio trabalho-vida pessoal",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "work-life-balance",
+      "workshop"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "cbcf69c0-5f91-42cb-a5bf-f40f82cfce97",
+    "title": "Programa de mentoramento para novos gestores",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "management",
+      "mentoring"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "290fa522-cf7a-4ba2-814f-58a785d71d17",
+    "title": "Sessão de feedback construtivo",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "feedback",
+      "development"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "cedd15b0-ba82-41d5-849f-78ff4db37612",
+    "title": "Treinamento em diversidade e inclusão",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "diversity",
+      "inclusion",
+      "training"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "ba7f37d8-7e88-45ae-8cf7-4335d091bcf6",
+    "title": "Workshop sobre comunicação não violenta",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "communication",
+      "workshop"
+    ],
+    "enabled": true
+  },
+  {
+    "internal_id": "e5bb0f79-2907-4a06-8040-9b4a79d7858d",
+    "title": "Sessão de treinamento sobre resolução de conflitos",
+    "source": "n/a",
+    "bot": "hr",
+    "tags": [
+      "conflict-resolution",
+      "training"
+    ],
+    "enabled": true
+  }
+]
